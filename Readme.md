@@ -26,7 +26,7 @@ $ python dataConverted.py
 ```
 
 The data format can be seen as below:
-'''
+```
 {
 	{
         "caption": "This is a test",
@@ -56,4 +56,4 @@ The data format can be seen as below:
     .
     .
 }
-'''
+```
