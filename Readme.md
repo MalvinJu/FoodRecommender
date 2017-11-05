@@ -24,3 +24,36 @@ Finally, run dataConverted.py to convert and get only the useful data:
 ```bash
 $ python dataConverted.py
 ```
+
+The data format can be seen as below:
+'''
+{
+	{
+        "caption": "This is a test",
+        "comments": [
+            "It works"
+        ],
+        "likesCount": 46,
+        "location": "Here",
+        "media": [
+            "https://localhost"
+        ],
+        "time": "2017-01-01 00:00:00"
+    },
+    {
+        "caption": "This is a test",
+        "comments": [
+            "It works"
+        ],
+        "likesCount": 46,
+        "location": "Here",
+        "media": [
+            "https://localhost"
+        ],
+        "time": "2017-01-01 00:00:00"
+    },
+    .
+    .
+    .
+}
+'''
